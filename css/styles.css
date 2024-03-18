@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    }
+    /* Para versión móvil (Mobile First): */
+    [class*="col-"] {
+    width: 100%;
+    padding: 3px;
+    /* border: 1px solid; */
+    border-color: none;
+    }
+    /* Para versión escritorio o laptop: */
+    @media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+    .titulo{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    
+    [class*="col-"] {
+    float: left;
+    }
+    .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    }
+
+    
+    .pie{
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        padding: 10px;
+        bottom: 0%;
+        width: 100%;
+        left: 0%;
+        background-color: #333;
+        color: white;
+        justify-content: space-around;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        font-family: "Luckiest Guy", cursive;
+        border: 1px outset;
+        /* transition: ease-in .4s; */
+    }
+    header{
+        background-color: rgba(49, 3, 252, 0.969);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+          
+        }
+        
+        nav ul li{
+            display: inline;
+            margin: 0 10px;
+            
+        }
+        nav a{
+
+            color: white;
+            text-decoration: none;
+            
+            }
+
+    .primero {
+        font-family: "Black Ops One", system-ui;
+                font-size: 24px;
+                padding: 10px;
+                text-align: center;
+        background-image: url("https://i.pinimg.com/originals/41/69/22/41692271bc6da062bc7ddfc8f7b2b6ca.png");
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border: 1px outset;
+         }
+         .login {
+            
+                   
+            background-image: url("https://i.pinimg.com/originals/41/69/22/41692271bc6da062bc7ddfc8f7b2b6ca.png");
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border: 2px boutset;
+             }
+             input:placeholder {
+                color: red;
+                font-size: 1.2em;
+                font-style: italic;
+              }
+              .Bati-book{
+                font-family: "ballparck", sans-serif;
+              }
+.titulo{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-size: 24px;
+    /* background-color: #0a0a0a; */
+    color: white;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    background-image: url("https://images4.alphacoders.com/132/thumb-1920-1329876.png");
+   }
+   main{
+    background-color: #403f3f;
+    color: white;
+    font-weight:bold;
+   }
+
+   .contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+        font-size: 14px;
+        border: 1px outset;
+    width: 100%;
+    background-color: black;
+   
+  }
+  .redes{
+    display: flex;
+              display: flex;
+            justify-content: space-around;
+            align-items: end;
+        font-size: 14px;
+        border: white 1px solid;
+        background-color: #1c1b1b;
+        
+   }
+   .contenedor_xboxx{
+   
+    border: white 0px solid;
+
+   }
+   .d_izquierda{
+    border: white 3px solid;
+    border-radius: 10px;
+    background-color: rgb(77, 105, 135);
+    color: white;
+    padding: 26px;
+    /* proyeccion de sombra */
+    box-shadow: 3px -3px rgb(32, 17, 198);
+   
+   }
+   /* efecto de aumento de  imagen */
+   .d_izquierda img:hover{-webkit-transform:scale(1.3);transform:scale(1.3);}
+   .contenedor {overflow:hidden;}
+
+   
+   .d_derecha{
+    border: white 1px solid;
+    padding: 20px;
+    text-align: center;
+   }
+   .formulario{
+    border: white 1px solid;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+   }
+   details {
+    display: block;
+    flex: 1 200px;
+  }
+  summary{
+    flex: 1 200px;
+  }
+   .beneficios{
+    border: white 1px solid;
+       text-align: center;
+       background-color: black;
+   }
+   .formulario:hover{
+    background-color:black;
+  border-radius: 20px;
+  border: 1px solid red;
+  transition: ease-in .4s;
+  
+  }
+  .beneficios:hover{
+    background-color:black;
+  border-radius: 20px;
+  border: 1px solid red;
+   text-align: right;
+  transition: ease-in .4s;
+  
+  }
