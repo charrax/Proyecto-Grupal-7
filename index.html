@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto grupal 6</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+   
+<style>
+
+</style>
+</head>
+<body>
+    
+    <h1 class="primero"><b>Bati-Electronic</b></h1>
+    <div class="titulo">
+        <img src="img/bat.jpg" alt="El renacer de tu empresa">
+        <h2><b>Bati-Slogan</b></h2>
+    </div>
+    
+    <header>
+        <nav>
+            <div class="contenedor">
+            <ul >    
+                   <li><a href="index.html">Inicio</a></li>      
+                   <li><a href="como.html">Cómo comprar</a></li>      
+                   <li><a href="pagos.html">Pagos/transferencias</a></li>      
+                   <li><a href="Marcas.html">Marcas Distribuidas</a></li>
+                   <li><a href="estadisticas.html">Estadistica</a></li>  
+                   <li><a href="contactos.html">Contacto</a></li>              
+                   
+            </ul>
+           
+            <div class="redes">
+                <ul>
+                    Facebook
+                <li><a href="https://WWW.facebook.com/"> <img src="img/face.png" alt="E"></a></li>
+                Instagram
+                <li><a href="https://www.instagram.com/"><img src="img/instan.png" alt="E"></a></li>
+                Twitter o x
+                <li><a href="https://twitter.com/home?lang=es"><img src="img/tw.png" alt="E"></a></li>
+            </ul>
+            </div>
+             </div>
+             </nav>
+            
+            
+        <div class="mt-0 mt-2">
+            <img  class="bg-transparent"  src="img/carro.png" alt="">
+            <input type="button"  id="carro"   >
+            <details class="container-fluid" >
+                <summary>Carro</summary>
+              
+                <div class="card mt-5" >
+                    <img class="card-img-top" src="img/xboxxg.png" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Xbox series x</h5>
+                      <p class="card-text">Valor $500.000</p>
+                      <h5><input type="button"  id="xboxxd">Cantidad</h5>
+                     <h5><input type="button"  id="sumaxx">Total</h5>
+                      <a href="despacho.html" class="btn btn-primary">Pagar</a>
+                    </div>
+                    </div>
+
+                  <div class="card" >
+                    <img class="card-img-top" src="img/xboxs.png" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Xbox series s</h5>
+                      <p class="card-text">Valor $300.000</p>
+                      <h5><input type="button"  id="xboxxs">Cantidad</h5>
+                      <h5><input type="button"  id="sumaxs">Total</h5>
+                      <a href="despacho.html" class="btn btn-primary">Pagar</a>
+                    </div>
+                    </div>
+                  <!-- tarjeta desleagable xbox series s -->
+                  <div class="card" >
+                    <img class="card-img-top" src="img/sw.png" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title"> Nintendo Switch</h5>
+                      <p class="card-text">Valor $500.000</p>
+                      <h5><input type="button"  id="sw">Cantidad</h5>
+                      <h5><input type="button"  id="sumasw">Total</h5>
+                      <a href="despacho.html" class="btn btn-primary">Pagar</a>
+                    </div>
+                    </div>
+
+                  <div class="card" >
+                    <img class="card-img-top" src="img/pl5p.png" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">PlayStation 5</h5>
+                      <p class="card-text">Valor $500.000</p>
+                      <h5><input type="button"  id="ps5">Cantidad</h5>
+                      <h5><input type="button"  id="sumaps5">Total</h5>
+                      <a href="despacho.html" class="btn btn-primary">Pagar</a>
+                    </div>
+                   </div>
+                                     
+                   <div>
+                    <h5 class="text-end">Suma total en carro</h5>
+                    <input type="button"  id="total"   >
+                </div>
+              </details>
+              
+        </div>
+        
+    </header>
+    <main>
+    <div class="row">
+        <div class="col-6">
+            <div class="d_izquierda">
+                <div class="row rows-cols-1 row-cols-md-2 ">
+                <div class="col">
+            <img src="img/xboxx.jpg" alt="El renacer de tu empresa">
+            <a href="xboxx.html"><b>Xbox Series X</b></a>
+            <h5>Valor: $500.000</h5>
+            <center >
+                <h3>Sumar a carro</h3>
+              <form action="">
+                <p>
+                  <input type="text" readonly id="counter" id="carro" value="0" />
+                </p>
+                <p>
+                  <input type="button" value="+" id="btnIncrement" onclick="incrementer()">
+                  <input type="button" value=" -" id="btnDecrement" onclick="decrementer()">
+                </p>
+              </form>
+              
+              </center>
+                        
+            </div>
+        </div>
+    </div>
+        
+        </div>
+        <div class="col-6">
+           
+
+            <div class="d_derecha">
+                
+                Presentamos Xbox Series X, la consola Xbox más rápida y potente de la historia.
+                   Juega miles de títulos de cuatro generaciones de consolas: todos los juegos se ven mejor y se juegan mejor en Xbox Series X. En el corazón de la Serie X y su gran memoria de 1tb ssd, que pone a la consola como una de las mas rapidas del mercado.
+            </div>
+            </div>
+            <div class="col-2">
+                <div class="formulario">
+                <b>Formulario</b>
+                <ul>
+                    <li><a href="https://www.xbox.com/es-CL/consoles/xbox-series-x"><b>Pagina Oficial</b></a></li>
+                    <li><a href="https://www.pcfactory.cl/producto/46156-microsoft-consola-xbox-series-x?gad_source=1&gclid=CjwKCAiAxaCvBhBaEiwAvsLmWGwYl3nqCOAfOR5Bref7rD9qXXZvBIg7UL3-FEMHtcY5uK6ukw5NExoC3zgQAvD_BwE"><b>Donde comprar</b></a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-4">
+                <div class="beneficios">
+                <b>Beneficios</b>
+                <ul>
+                    <li><a>Reanudación más rápida</a></li>
+                    <li><a>Tiempos de carga más rápida</a></li>
+                    <li><a>Fotogramas de nueva generación</a></li>
+                </ul>
+            </div>
+            </div>
+            </div>
+
+        <div class="row">
+        <div class="col-6">
+            <div class="d_izquierda">
+            <img src="img/xbos.jpg" alt="El renacer de tu empresa">
+            <a href="xboxs.html"><b>Xbox Series S</b></a>
+            <h5>Valor: $300.000</h5>
+            <center >
+                <h3>Sumar a carro</h3>
+              <form action="">
+                <p>
+                  <input type="text" readonly id="carros" id="carro" value="0" />
+                </p>
+                <p>
+                  <input type="button" value="+" id="btnIncrement" onclick="incrementers()">
+                  <input type="button" value=" -" id="btnDecrement" onclick="decrementers()">
+                </p>
+              </form>
+              </center>
+
+        </div>
+        </div>
+        
+        <div class="col-6">
+            <div class="d_derecha">
+             La consola Xbox Series S, totalmente digital, ofrece juegos de próxima generación a un precio accesible.
+             Experimenta la velocidad y el rendimiento de próxima generación con la arquitectura Xbox Velocity, impulsada por un SSD personalizado y software integrado y su gran memoria de 500 ssd, que pone a la consola como una de las mas rapidas del mercado.
+            
+        </div>
+        </div>
+        <div class="col-2">
+            <div class="formulario">
+            <b>Formulario</b>
+            <ul>
+                <li><a href="https://www.xbox.com/es-CL/consoles/xbox-series-s"><b>Pagina Oficial</b></a></li>
+                <li><a href="https://www.amazon.com/-/es/Xbox-Starter-hundreds-Ultimate-Membership-All-Digital/dp/B0CFS1SDC4/ref=sr_1_1?adgrpid=145720702274&dib=eyJ2IjoiMSJ9.acOgJHVnGsNvmxCjrqhh5y75l7zgM7pyij38xvBDbBoMhN-R0Qp2DliXbtndtU3ggAt5pzxLsqMv90K1WRxAziatbi57Ls2SwBS7WeZiUJwO9t5cJe2nzlcYoYjNWVzSX_nnxi5ksDLd_nVYZ-9XZDBSuJS5RVUnR0ZCvcF7jPm8Y2XldaJrW0nWUk8sUoOaOTC2akFj7kXQdnRIvjNTvTr8YSOMzmhlRNl1xgrGflE.u9qFfNXP-Rwz4Qcqiv_OPPtzP-E3q5xP_R1ldHuaMuU&dib_tag=se&hvadid=673519355017&hvdev=c&hvlocphy=9048046&hvnetw=g&hvqmt=b&hvrand=13700561569100785917&hvtargid=kwd-1020750535133&hydadcr=4769_13369629&keywords=x-box+series+s&qid=1709747260&sr=8-1"><b>Donde comprar</b></a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="col-4">
+            <div class="beneficios">
+            <b>Beneficios</b>
+            <ul>
+                <li><a>Reanudación más rápida</a></li>
+                <li><a>Tiempos de carga más rápida</a></li>
+                <li><a>Fotogramas de nueva generación</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+
+        <div class="row">
+        <div class="col-6">
+            <div class="d_izquierda">
+            <img src="img/nin.jpg" alt="El renacer de tu empresa">
+            <a href="sw.html"><b>Nintendo Switch</b></a>
+            <h5>Valor: $500.000</h5>
+            <center >
+                <h3>Sumar a carro</h3>
+              <form action="">
+                <p>
+                  <input type="text" readonly id="carrow" id="carro" value="0" />
+                </p>
+                <p>
+                  <input type="button" value="+" id="btnIncrement" onclick="incrementerw()">
+                  <input type="button" value=" -" id="btnDecrement" onclick="decrementerw()">
+                </p>
+              </form>
+              </center>
+        </div>
+        </div>
+        
+        <div class="col-6">
+            <div class="d_derecha">
+            La consola Nintendo Switch 1.1 Neon Joy Con Red Blue Lt2 es un sistema de entretenimiento interactivo que combina la funcionalidad de una plataforma doméstica con la portabilidad de un dispositivo móvil y fácil de navegar que en anteriores modelos. Además, podrás jugar durante horas desafiando a millones de contrincantes alrededor del mundo que esperan nuevos retos.
+        </div>
+        </div>
+        <div class="col-2">
+            <div class="formulario">
+            <b>Formulario</b>
+            <ul>
+                <li><a href="https://www.nintendo.com/es-cl/switch/"><b>Pagina Oficial</b></a></li>
+                <li><a href="https://www.pcfactory.cl/producto/43349-nintendo-consola-nintendo-switch-oled-con-joy-con-blanco?gad_source=1&gclid=CjwKCAiAxaCvBhBaEiwAvsLmWG3h4bliEowHqH9cEspU0CJHQR7dtt-rB8wKDD19a0hXHgrlxRSLhxoC3bkQAvD_BwE"><b>Donde comprar</b></a></li>
+            </ul>
+        </div>
+        
+        </div>
+        <div class="col-4">
+            <div class="beneficios">
+            <b>Beneficios</b>
+            <ul>
+                <li><a>Reanudación más rápida</a></li>
+                <li><a>Tiempos de carga más rápida</a></li>
+                <li><a>Fotogramas de nueva generación</a></li>
+            </ul>
+        </div>
+        </div>
+        </div>
+        
+        <div class="row">
+        <div class="col-6">
+            <div class="d_izquierda" >
+            <img src="img/PL5.jpg" alt="El renacer de tu empresa">
+            <a href="pls.html"><b>Play Station 5</b></a>
+            <h5>Valor: $500.000</h5>
+            <center >
+                <h3>Sumar a carro</h3>
+              <form action="">
+                <p>
+                  <input type="text" readonly  id="carrop" id="carro" value="0" />
+                </p>
+                <p>
+                  <input type="button" value="+" id="btnIncrement" onclick="incrementerp()">
+                  <input type="button" value=" -" id="btnDecrement" onclick="decrementerp()">
+                </p>
+              </form>
+              </center>
+        </div>
+        </div>
+        <div class="col-6">
+            <div class="d_derecha">
+            Con tu consola PlayStation 5 tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos.
+
+            PlayStation renovó las expectativas del mundo virtual con esta nueva consola y su gran rendimiento. Cuenta con una interfaz de usuario más rápida.
+        </div>
+        </div>
+        <div class="col-2">
+            <div class="formulario">
+            <b>Formulario</b>
+            <ul>
+                <li><a href="https://store.sony.cl/playstation/consolas"><b>Pagina Oficial</b></a></li>
+                <li><a href="https://www.pcfactory.cl/producto/48854-sony-consola-playstation-5-standar-disco?gad_source=1&gclid=CjwKCAiAxaCvBhBaEiwAvsLmWDzaE-n9M3ZiMtbexxYE85OCXuM4Ra48ugy8QV0DB3g9O-vvWLIRyRoCL2oQAvD_BwE"><b>Donde comprar</b></a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="col-4">
+            <div class="beneficios">
+            <b>Beneficios</b>
+            <ul>
+                <li><a>Reanudación más rápida</a></li>
+                <li><a>Tiempos de carga más rápida</a></li>
+                <li><a>Fotogramas de nueva generación</a></li>
+            </ul>
+        </div>
+        </div>
+        </div>
+    </main>
+
+        
+
+<footer class="pie">
+    <p>Bati-Charras&copy;<b>2024 Bootcamp de Python</b></p>
+    
+        </footer>
+        <script src="js/logica.js"></script>
+</body>
+</html>
